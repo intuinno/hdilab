@@ -1,68 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <title>Human Data Interaction Lab - intuinno</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Human Data Interaction Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/theme/styles.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/theme/slicknav.css">
+    <script src="/theme/jquery.slicknav.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript"
+	    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <![endif]-->
+<script>
+	$(function(){
+		$('#menu').slicknav({'label':''});
+	});
+</script>
+<link rel="icon" href="/theme/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
+<link rel="apple-touch-icon" sizes="114x114" href="/theme/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/theme/favicon152.png">
+<link rel="apple-touch-icon" sizes="196x196" href="/theme/favicon196.png">
+  </head>
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-</head>
+  <body>
+    <div id="wrapper">
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Human Data Interaction Lab </a></h1>
-                <nav><ul>
-                    <li><a href="/category/test.html">test</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/hello-world.html">Hello, World</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2015-05-11T10:20:00+02:00">
-                Published: Mon 11 May 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/intuinno.html">intuinno</a>
-        </address>
-<p>In <a href="/category/test.html">test</a>. </p>
-
-</footer><!-- /.post-info --><p>Hi, this is a test article. </p>                </article>
+      <header>
+	<nav class="byline"><ul id="menu">
+        </ul></nav><!-- /#menu -->
+        <div class="downloads">
+          <a href="#" class="fa fa-You can add links in your config file"></a>
+          <a href="#" class="fa fa-Another social link"></a>
+        </div>
+        <hgroup>
+          <h1>Articles by</h1>
+          <h2 class="tagline">intuinno</h2>
+        </hgroup>
+      </header>
+<section id="content">
+<ul id="post-list">
+        <li><article class="hentry">
+            <header class="article-list"> <h2 class="entry-title"><a href="../hello-world.html" rel="bookmark" title="link to Hello, World">Hello, World</a></h2>
+                <footer class="post-info">
+                    <address class="vcard author">By
+                        <a class="url fn" href="../author/intuinno.html">intuinno</a>
+                    </address>
+                    <abbr class="published" title="2015-05-11T10:20:00+02:00">  on 11.05.2015 </abbr>
+                </footer><!-- /.post-info -->
+	    </header>
+                <div class="entry-content"> <p>Hi, this is a test article. </p> </div><!-- /.entry-content -->
+        </article></li>
+</ul><!-- /#posts-list -->
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
-
+</section><!-- /#content -->
+      <footer>
+	  <a href="../pages/about.html" >About</a>
+	  <div class="right-footer">
+	  <a href="../categories.html" >Categories</a>
+	  <a href="../tags.html" >Tags</a>
+	  </div>
+      </footer>
 </body>
 </html>

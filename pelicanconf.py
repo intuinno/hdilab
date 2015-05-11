@@ -6,6 +6,8 @@ AUTHOR = u'intuinno'
 SITENAME = u'Human Data Interaction Lab'
 SITEURL = ''
 
+THEME = "/Users/intuinno/codegit/pelican-themes/martin-pelican"
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
